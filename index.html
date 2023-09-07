@@ -11,7 +11,7 @@
     <title>PaPErGate</title>
     <link rel="shortcut icon" href="/assets/images/icon.png" />
     <meta name="keywords" content="PaPErGate" />
-    
+
     <link rel="stylesheet" id="block-library-css"
         href="/assets/css/block-library.min-5.6.2.css" type="text/css" media="all" />
     <link rel="stylesheet" id="iconfont-css" href="/assets/css/iconfont-3.03029.1.css"
@@ -347,11 +347,11 @@
                                     CONFIG: {
                                         "modules": "01234",
                                         "background": 5,
-                                        "tmpColor": "E4C600",
+                                        "tmpColor": "FFFFFF",
                                         "tmpSize": 14,
-                                        "cityColor": "E4C600",
+                                        "cityColor": "FFFFFF",
                                         "citySize": 14,
-                                        "aqiColor": "#E4C600",
+                                        "aqiColor": "FFFFFF",
                                         "aqiSize": 14,
                                         "weatherIconSize": 24,
                                         "alertIconSize": 18,
@@ -362,7 +362,7 @@
                                         "fixed": "false",
                                         "vertical": "middle",
                                         "horizontal": "left",
-                                        "key": "085791e805a24491b43b06cf58ab31e7"
+                                        "key": "5b2ba657318f46ef98f4e826c71382ac"
                                     }
                                 }
                             </script>
@@ -5887,11 +5887,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
     }
 })();
 
-$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");   
+$("#search-bg").css("background-image", "url(assets\/images\/background.jpg)");   
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     if(night == '0'){
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");
+	$("#search-bg").css("background-image", "url(assets\/images\/background_d.jpg)");
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
@@ -5900,7 +5900,7 @@ function switchNightMode(){
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)")
+	$("#search-bg").css("background-image", "url(assets\/images\/background.jpg)")
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
