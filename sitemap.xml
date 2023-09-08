@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.0.103:1313/categories/</loc>
+    <loc>https://papergate.top/categories/</loc>
   </url><url>
-    <loc>http://192.168.0.103:1313/</loc>
+    <loc>https://papergate.top/</loc>
   </url><url>
-    <loc>http://192.168.0.103:1313/tags/</loc>
+    <loc>https://papergate.top/tags/</loc>
   </url>
 </urlset>
